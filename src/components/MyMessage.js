@@ -7,7 +7,7 @@ const MyMessage = ({message}) => {
             <img 
                 src={message.attachement[0].file}
                 alt='message-attachement' 
-                className='message-mage' 
+                className='message-image' 
                 style={{float: 'right'}}
             />
         );
@@ -15,7 +15,7 @@ const MyMessage = ({message}) => {
 
     return (
       <div className='message'
-      style={{float: 'right', marginRight: '18px', color: 'white', backgroundColor: 'ActiveCaption' }}>
+      style={{float: 'right', marginRight: '18px', color: 'white', backgroundColor: '#3B2A50' }}>
         {message.text}
       </div>
     )
