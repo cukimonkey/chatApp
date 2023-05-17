@@ -1,2 +1,2 @@
 # chatApp
-Web Chat Applications Using Socket, REST APIs, Firebase, React Hooks, Bootstrap, React.js
+Web Chat Applications Using React Hooks, React.js, React Chat Engine
